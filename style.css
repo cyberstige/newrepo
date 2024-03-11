@@ -3,6 +3,10 @@ body {
     padding: 0;
     font-family:cursive;
     overflow-x: hidden;
+    @font-face {
+        font-family: comic;
+        src: url(./cheesecake-font.zip);
+    }
     
 }
 .loading {
