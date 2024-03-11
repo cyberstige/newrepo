@@ -1,12 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family:cursive;
+    font-family:sans-serif;
     overflow-x: hidden;
-    @font-face {
-        font-family: comic;
-        src: url(./cheesecake-font.zip);
-    }
+    
     
 }
 .loading {
@@ -23,7 +20,7 @@ body {
     font-weight: 600;
     display: inline-block;
     letter-spacing: 2px;
-    font-family: cursive;
+    font-family: sans-serif;
     color: white;
     box-sizing: border-box;
     animation: spotlight 2s linear infinite alternate;
@@ -73,7 +70,6 @@ body {
     width: 70%;
     font-weight: 900;
     color: black;
-    font-family: cursive;
 
 }
 .hover {
