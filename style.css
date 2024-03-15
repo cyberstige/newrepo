@@ -349,6 +349,22 @@ text span {
     width:  100%;
     position: absolute;
 }
+.total-pannel {
+    gap: 3rem;
+}
+.tx {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: capitalize;
+    height: 150px;
+    margin-top: 100px;
+}
+
 .tx-1 {
     width: 100%;
     display: flex;
@@ -359,6 +375,7 @@ text span {
     font-weight: 600;
     text-transform: capitalize;
     height: 200px;
+    margin-top: 150px;
 }
 
 .sp {
@@ -370,6 +387,7 @@ text span {
     margin-left: 5%;
     gap: 4rem;
     justify-content: center;
+    
     
     
 
@@ -555,7 +573,7 @@ text span {
     font-size: 40px;
     font-weight: 600;
     text-transform: capitalize;
-    height: 200px;
+    height: 100px;
 }
 .t-iv {
     display: flex;
@@ -730,6 +748,215 @@ text span {
     width: 90px;
     margin-top: 5px;
 }
+.tx-6 {
+    width: 100%;
+    height: 100px;
+    display: flex;align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    color: orange;
+
+}
+.tx-6:hover {
+    cursor: pointer;
+}
+.cls2 {
+    width: 100%;
+    height: 100px;
+    display: flex;align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    color: orange;
+    display: none;
+}
+.cls2:hover {
+    cursor: pointer;
+}
+
+.inverter-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    display: none;
+    margin-top: 100px;
+}
+.t-iv2 {
+    display: flex;
+    flex-direction: row;
+}
+.iv2-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+   
+}
+.iv2-1-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 120px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.iv2-1-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.iv2-1-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+
+.pd-img21 {
+    background-image: url(./lordmoon34.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+
+}
+.pd-img21:hover {
+    width: 95%;
+    height: 270px;
+} 
+.iv2-1-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 0px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img22 {
+    background-image: url(./lordmoon35.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+
+}
+.pd-img22:hover {
+    width: 95%;
+    height: 270px;
+}
+.iv2-1-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.iv2-1-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.iv2-2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 0rem;
+}
+.iv2-2-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+    margin-left: 32px;
+}
+.iv2-2-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.iv2-2-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.pd-img23 {
+    background-image: url(./lordmoon36.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img23:hover {
+    width: 95%;
+    height: 270px;
+}
+.iv2-2-b {
+    width: 35%; 
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 63px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img24 {
+    background-image: url(./lordmoon16.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img24:hover {
+    width: 95%;
+    height: 270px;
+}
+.iv2-2-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.iv2-2-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
 .battery {
     width: 100%;
     display:flex;
@@ -739,7 +966,7 @@ text span {
 }
 .tx-3 {
     width: 100%;
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -918,9 +1145,224 @@ text span {
     width: 90px;
     margin-top: 5px;
 }
+.battery-2 {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    margin-top: 100px;
+}
+.tx-3 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+}
+.t-bt2 {
+    display: flex;
+    flex-direction: row;
+}
+.bt2-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 50%;
+}
+.bt2-1-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img25 {
+    background-image: url(./lordmoon39.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img25:hover {
+    width: 95%;
+    height: 270px;
+}
+.bt2-1-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.bt2-1-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.bt2-1-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img26 {
+    background-image: url(./lordmoon40.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img26:hover {
+    width: 95%;
+    height: 270px;
+}
+.bt2-1-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.bt2-1-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.bt2-2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.bt2-2-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img27 {
+    background-image: url(./lordmoon41.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img27:hover {
+    width: 95%;
+    height: 270px;
+}
+.bt2-2-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.bt2-2-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.bt2-2-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img28 {
+    background-image: url(./lordmoon42.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img28:hover {
+    width: 95%;
+    height: 270px;
+}
+.bt2-2-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.bt2-2-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.tx-7 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: orange;
+}
+.tx-7:hover {
+    cursor: pointer;
+}
+.cls3 {
+    width: 100%;
+    height: 100px;
+    display: flex;align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    color: orange;
+    display: none;
+}
+.cls3:hover {
+    cursor: pointer;
+}
 .tx-4 {
     width: 100%;
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1071,7 +1513,7 @@ text span {
     box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
 }
 .pd-img16 {
-    background-image: url(./lordmoon17.jfif);
+    background-image: url(./solar\ light.jfif);
     width: 90%;
     height: 250px;
     background-size: cover;
@@ -1098,48 +1540,601 @@ text span {
     width: 90px;
     margin-top: 5px;
 }
-.last {
+
+
+
+.tx-8 {
     width: 100%;
-    height: auto;
-    background-color: #2A2929;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: orange;
+}
+.tx-8:hover {
+    cursor: pointer;
+}
+.cls4 {
+    width: 100%;
+    height: 100px;
+    display: flex;align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    color: orange;
+    display: none;
+}
+.cls4:hover {
+    cursor: pointer;
+}
+
+
+.street-light-2 {
     margin-top: 100px;
+}
+.t-sl2 {
+    display: flex;
+    flex-direction: row;
+    display: none;
+
+}
+.sl2-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 50%;
+}
+.sl2-1-a {
+    width: 35%;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
-    font-weight: 500;
-    text-transform: capitalize;
-    color: white;
-    background-image: url(./redo.png);
-    background-size: 200px;
-
-
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
 }
-.last span {
+.pd-img33 {
+    background-image: url(./lordmoon32.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img33:hover {
+    width: 95%;
+    height: 270px;
+}
+.sl2-1-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
     color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
 }
-.other {
+.sl2-1-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.sl2-1-b {
+    width: 35%;
+    height: 350px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
 }
-.other li{
+.pd-img34 {
+    background-image: url(./lordmoon22.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img34:hover {
+    width: 95%;
+    height: 270px;
+}
+.sl2-1-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.sl2-1-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.sl2-2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.sl2-2-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img35 {
+    background-image: url(./lordmoon14.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img35:hover {
+    width: 95%;
+    height: 270px;
+}
+.sl2-2-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.sl2-2-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.sl2-2-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img36 {
+    background-image: url(./lordmoon37.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img36:hover {
+    width: 95%;
+    height: 270px;
+}
+.sl2-2-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.sl2-2-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.t-sp2 {
     display: flex;
     flex-direction: row;
-    list-style: none;
-}
-.other a {
-    color: white;
+    margin-top: 0;
+    display: none;
     
 }
-.other a:hover {
-    color: orange;
-}
-.description {
+.tx-5 {
+    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    text-align: center;
+    height: 50px;
+    font-weight: 900;
     text-transform: capitalize;
+    color: orange;
+    
 }
+.tx-5:hover {
+    cursor: pointer;
+}
+.cls {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: orange;
+    height: 100px;
+    display: none;
+}
+.cls:hover {
+    cursor: pointer;
+}
+.solar-pannel2 {
+    margin-top: 100px;
+}
+.sp2-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 50%;
+}
+.sp2-1-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img17 {
+    background-image: url(./lordmoon23.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img17:hover {
+    width: 95%;
+    height: 270px;
+}
+.sp2-1-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.sp2-1-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.sp2-1-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img18 {
+    background-image: url(./lordmoon19.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img18:hover {
+    width: 95%;
+    height: 270px;
+}
+.sp2-1-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.sp2-1-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.sp2-2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.sp2-2-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img19 {
+    background-image: url(./lordmoon30.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img19:hover {
+    width: 95%;
+    height: 270px;
+}
+.sp2-2-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.sp2-2-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.sp2-2-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img20 {
+    background-image: url(./lordmoon38.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img20:hover {
+    width: 95%;
+    height: 270px;
+}
+.sp2-2-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.sp2-2-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}  
+.other-product {
+}
+.tx-9 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    height: 100px;
+}
+.t-op {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    
+}
+.op-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 50%;
+}
+.op-1-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img37 {
+    background-image: url(./lordmoon29.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img37:hover {
+    width: 95%;
+    height: 270px;
+}
+.op-1-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.op-1-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.op-1-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img38 {
+    background-image: url(./lordmoon24.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img38:hover {
+    width: 95%;
+    height: 270px;
+}
+.op-1-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.op-1-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.op-2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.op-2-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img39 {
+    background-image: url(./lordmoon44.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img39:hover {
+    width: 95%;
+    height: 270px;
+}
+.op-2-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.op-2-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.op-2-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img40 {
+    background-image: url(./lordmoon17.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img40:hover {
+    width: 95%;
+    height: 270px;
+}
+.op-2-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.op-2-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}    
+
 .service-box {
     width: 100%;
 }
@@ -1147,11 +2142,9 @@ text span {
     width: 100%;
     height: 90vh;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     gap: 4.2rem;
-    
 }
 .sv-1-a {
     width: 25%;
@@ -1318,27 +2311,34 @@ text span {
     text-transform: capitalize;
 }
 .sv-img-6 {
-    width: 50%;
+    width: 100%;
     height: 30vh;
-    background-image: url(./db.png);
-    background-size: 200px;
+    background-image: url(./integrate-removebg-preview.png);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
+
 }
 .sv-2-c a {
     color: orange;
 }
 .footer {
     width: 100%;
-    height: 200px;
-    position: absolute;
+    height: 10vh;
     background-color: #2A2929;
     background-image: url(./redo.png);
-    background-size: 250px;
-    
+    background-size: 200px;
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-transform: capitalize;
+
 }
+
 
 
         
@@ -1387,7 +2387,8 @@ text span {
         width: 45%;
     }
     .tx-2 {
-        height: 100px;
+        height: 50px;
+
     }
     
     .iv-1 {
@@ -1413,6 +2414,32 @@ text span {
         width: 45%;
     }
     .iv-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    .iv2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .iv2-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .iv2-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .iv2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .iv2-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .iv2-2-b {
         margin: 0;
         width: 45%;
     }
@@ -1446,7 +2473,37 @@ text span {
         margin: 0;
         width: 45%;
     }
-    .tx-4 {
+
+    .tx-7 {
+        height: 100px;
+    }
+    
+    .bt2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .bt2-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .bt2-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .bt2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .bt2-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .bt2-2-b {
+        margin: 0;
+        width: 45%;
+    } .tx-4 {
         height: 100px;
     }
     
@@ -1476,6 +2533,66 @@ text span {
         margin: 0;
         width: 45%;
     }
+
+
+
+    .op-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .op-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .op-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .op-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .op-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .op-2-b {
+        margin: 0;
+        width: 45%;
+    }
+
+
+
+    .sl2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sl2-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sl2-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .sl2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sl2-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sl2-2-b {
+        margin: 0;
+        width: 45%;
+    }
+
+
     .last {
         flex-direction: column;
     }
@@ -1483,6 +2600,42 @@ text span {
         display: flex;
         flex-direction: row;
     }
+    .t-sp2 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0rem;
+        margin: 0;
+    }
+    .sp2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
+    }
+    .sp2-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sp2-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .sp2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
+    }
+    .sp2-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sp2-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    
   }
 /* for screens less than 1024px */
   @media screen and (max-width: 1024px) {
@@ -1566,6 +2719,37 @@ text span {
         margin: 0;
         width: 45%;
     }
+
+
+    .iv2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .iv2-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .iv2-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .iv2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .iv2-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .iv2-2-b {
+        margin: 0;
+        width: 45%;
+    }
+
+
+
     .tx-3 {
         height: 100px;
     }
@@ -1596,6 +2780,41 @@ text span {
         margin: 0;
         width: 45%;
     }
+
+    .tx-7 {
+        height: 100px;
+    }
+    
+    .bt2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .bt2-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .bt2-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .bt2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .bt2-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .bt2-2-b {
+        margin: 0;
+        width: 45%;
+    }
+
+
+
+
     .tx-4 {
         height: 100px;
     }
@@ -1626,6 +2845,58 @@ text span {
         margin: 0;
         width: 45%;
     }
+    .sl2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sl2-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sl2-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .sl2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sl2-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sl2-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    .op-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .op-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .op-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .op-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .op-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .op-2-b {
+        margin: 0;
+        width: 45%;
+    }
     .last {
         flex-direction: column;
     }
@@ -1643,6 +2914,41 @@ text span {
     }.other3 {
         display: flex;
         flex-direction: row;
+    }
+    .t-sp2 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0rem;
+        margin: 0;
+    }
+    .sp2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
+    }
+    .sp2-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sp2-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .sp2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
+    }
+    .sp2-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sp2-2-b {
+        margin: 0;
+        width: 45%;
     }
   }  
 /* for screens less than 908px */
@@ -1717,6 +3023,33 @@ text span {
         margin: 0;
         width: 45%;
     }
+
+    .iv2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .iv2-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .iv2-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .iv2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .iv2-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .iv2-2-b {
+        margin: 0;
+        width: 45%;
+    }
     .tx-3 {
         height: 100px;
     }
@@ -1747,6 +3080,40 @@ text span {
         margin: 0;
         width: 45%;
     }
+
+
+    .tx-7 {
+        height: 100px;
+    }
+    
+    .bt2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .bt2-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .bt2-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .bt2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .bt2-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .bt2-2-b {
+        margin: 0;
+        width: 45%;
+    }
+
+
     .tx-4 {
         height: 100px;
     }
@@ -1777,6 +3144,69 @@ text span {
         margin: 0;
         width: 45%;
     }
+
+
+
+    .sl2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sl2-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sl2-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .sl2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sl2-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sl2-2-b {
+        margin: 0;
+        width: 45%;
+    }
+
+
+
+
+    .op-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .op-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .op-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .op-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .op-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .op-2-b {
+        margin: 0;
+        width: 45%;
+    }
+
+
+
+
     .last {
         flex-direction: column;
     }
@@ -1805,15 +3235,16 @@ text span {
         align-items: center;
     }
     .sv-1-a {
-        width: 90%;
+        width: 50%;
         margin-top: 150px;
+        height: 50vh;
     }
     
     .sv-1-b {
-        width: 90%;
+        width: 50%;
     }
     .sv-1-c {
-        width: 90%;
+        width: 50%;
     }
     
     .t-sv-2 {
@@ -1822,22 +3253,59 @@ text span {
         margin-top: 60px;
     }
     .sv-2-a {
-        width: 90%;
+        width: 50%;
     }
     .sv-2-b {
-        width: 90%;
+        width: 50%;
     }
     .sv-img-5 {
-        width: 90%;
+        width: 50%;
     }
     .sv-2-c {
-        width: 90%;
+        width: 50%;
     }
     .sv-img-6 {
         width: 90%;
     }
     .footer {
         margin-top: 50px;
+    }
+    .t-sp2 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        margin: 0;
+    }
+    .sp2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+    }
+    .sp2-1-a {
+        margin: 0;
+        width: 90%;
+    }
+    .sp2-1-b {
+        margin: 0;
+        width: 90%;
+    }
+    .sp2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+    }
+    .sp2-2-a {
+        margin: 0;
+        width: 90%;
+    }
+    .sp2-2-b {
+        margin: 0;
+        width: 90%;
     }
   }          
 /* for screens less than 768px */
@@ -1961,7 +3429,7 @@ text span {
         width: 70%;
     }
     .address-2 {
-        gap: 2rem;
+        gap: 1rem;
         width: 10%;
         flex-direction: column;
     }
@@ -2013,6 +3481,29 @@ text span {
         width: 100%;
         justify-content: center;
     }
+
+    
+
+    .t-iv2 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .iv2-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .iv2-1-a {
+        margin: 0;
+    }
+    .iv2-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+
     .tx-3 {
         height: 100px;
     }
@@ -2033,6 +3524,31 @@ text span {
         width: 100%;
         justify-content: center;
     }
+
+
+
+    .tx-7 {
+        height: 100px;
+    }
+    .t-bt2 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .bt2-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .bt2-1-a {
+        margin: 0;
+    }
+    .bt2-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+
     .tx-4 {
         height: 100px;
     }
@@ -2053,6 +3569,51 @@ text span {
         width: 100%;
         justify-content: center;
     }
+
+
+
+    .t-sl2 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .sl2-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .sl2-1-a {
+        margin: 0;
+    }
+    .sl2-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+
+
+
+    .t-op {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .op-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .op-1-a {
+        margin: 0;
+    }
+    .op-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+
     .last {
         font-size: 20px;
         flex-direction: column;
@@ -2116,6 +3677,49 @@ text span {
     .footer {
         margin-top: 50px;
     }
+    .t-sp2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        margin: 0;
+        
+    }
+    .sp2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+    }
+    .sp2-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sp2-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .sp2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+
+    }
+    .sp2-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sp2-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    .other-product {
+        height: 130vh;
+    }
+    
 }
 /* for screens less than 650px */
 @media screen and (max-width: 650px) {
@@ -2291,6 +3895,30 @@ text span {
         width: 100%;
         justify-content: center;
     }
+
+
+
+
+    .t-iv2 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .iv2-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .iv2-1-a {
+        margin: 0;
+    }
+    .iv2-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+
     .tx-3 {
         height: 100px;
     }
@@ -2311,6 +3939,32 @@ text span {
         width: 100%;
         justify-content: center;
     }
+
+
+
+    .tx-3 {
+        height: 100px;
+    }
+    .t-bt2 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .bt2-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .bt2-1-a {
+        margin: 0;
+    }
+    .bt2-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+
     .tx-4 {
         height: 100px;
     }
@@ -2331,6 +3985,44 @@ text span {
         width: 100%;
         justify-content: center;
     }
+
+    .t-op {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .op-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .op-1-a {
+        margin: 0;
+    }
+    .op-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .t-sl2 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .sl2-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .sl2-1-a {
+        margin: 0;
+    }
+    .sl2-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+
     .last {
         font-size: 20px;
         flex-direction: column;
@@ -2351,276 +4043,624 @@ text span {
         display: flex;
         flex-direction: row;
     }
+    .service-box {
+        flex-direction: column;
+    }
+    .t-sv-1 {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .sv-1-a {
+        width: 50%;
+        margin-top: 150px;
+    }
+    
+    .sv-1-b {
+        width: 50%;
+    }
+    .sv-1-c {
+        width: 50%;
+    }
+    
+    .t-sv-2 {
+        flex-direction: column;
+        height: auto;
+        margin-top: 60px;
+    }
+    .sv-2-a {
+        width: 50%;
+    }
+    .sv-2-b {
+        width: 50%;
+    }
+    .sv-img-5 {
+        width: 50%;
+    }
+    .sv-2-c {
+        width: 50%;
+    }
+    .sv-img-6 {
+        width: 50%;
+    }
+    .footer {
+        margin-top: 50px;
 }
+.t-sp2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 0;
+    
+}
+.sp2-1 {
+    margin: 0;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+}
+.sp2-1-a {
+    margin: 0;
+    width: 45%;
+}
+.sp2-1-b {
+    margin: 0;
+    width: 45%;
+}
+.sp2-2 {
+    margin: 0;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+
+}
+.sp2-2-a {
+    margin: 0;
+    width: 45%;
+}
+.sp2-2-b {
+    margin: 0;
+    width: 45%;
+}
+.other-product {
+    height: 130vh;
+}
+}
+
 /* for screens less than 450px */
 @media screen and (max-width: 450px) {
-  .head {
-    height: 110px;
-    align-items: center;
+    .head {
+        height: 110px;
+        align-items: center;
+        
+      }
+      .logo {
+        background-size: contain;
+        width: 40%;
+        margin-left: 15px;
+      }
+      .list {
+        font-size: 30px;
+        margin-bottom:  15px;
+        margin-right: 15px;
+      }
+    .about {
+        font-size: 15px;
+        padding: 0px 10px;
+        font-size: 10px;
+    }
     
-  }
-  .logo {
-    background-size: contain;
-    width: 40%;
-    margin-left: 15px;
-  }
-  .list {
-    font-size: 30px;
-    margin-bottom:  15px;
-    margin-right: 15px;
-  }
-.about {
-    font-size: 15px;
-    padding: 0px 10px;
-    font-size: 10px;
-}
-
-  
-  .section-2 {
-    font-size: 15px;
-    padding: 0;
-  }
-  .note {
-    font-size: 15px;
-  }
-  .write {
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .title h1 {
-    font-size: 30px;
-  }
-  
-  .text h1 {
-    font-size: 15px;
-  }
-  .text  {
-    font-size: 25px;
-    gap: 0;
-  }
-  .class {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-  }
-  .address {
-    font-size: 12px;
-  }
-  .address-1 {
-    width: 80%;
-    justify-content: center;
-    gap: 0;
-    margin-left: 15px;
-  }
-  .address-2 {
-    width: 10%;
-    font-size: 15px;
-    gap: 1rem;
-    flex-direction: column;
-}
-.menu {
-    font-size: 20px;
-    width: 50%;
-}
-.close {
-    font-size: 25px;
-}
-.list {
-    display: flex;
-}
-.solar-pannel {
-    flex-direction: column;
-}
-.tx-1 {
-    font-size: 30px;
-    height: 100px;
-}
-.sp {
-    flex-direction: column;
-    gap: 3rem;
-}
-.sp-1 {
-    margin: 0;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.sp-1-a {
-    width: 90%;
-}
-.sp-1-b {
-    width: 90%;
-    
-}
-.sp-2 {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-.sp-2-a {
-    width: 90%;
-}
-.sp-2-b {
-    width: 90%;
-}
-.tx-2 {
-    height: 100px;
-    font-size: 30px;
-}
-.t-iv {
-    flex-direction: column;
-    gap: 3rem;
-}
-.iv-1 {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    gap: 3rem;
-}
-.iv-1-a {
-    flex-direction: column;
-    margin: 0;
-    width: 90%;
-}
-.iv-1-b {
-    flex-direction: column;
-    margin: 0;
-    width: 90%;
-}
-.iv-2 {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-}
-.iv-2-a {
-    margin: 0;
-    width: 90%;
-}
-.iv-2-b {
-    margin: 0;
-    width: 90%;
-}
-
-.tx-3 {
-    font-size: 30px;
-    height: 100px;
-}
-.t-bt {
-    flex-direction: column;
-    gap: 3rem;
-}
-.bt-1 {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    gap: 3rem;
-}
-.bt-1-a {
-    flex-direction: column;
-    margin: 0;
-    width: 90%;
-}
-.bt-1-b {
-    flex-direction: column;
-    margin: 0;
-    width: 90%;
-}
-.bt-2 {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    gap: 3rem;
-}
-.bt-2-a {
-    flex-direction: column;
-    margin: 0;
-    width: 90%;
-}
-.bt-2-b {
-    flex-direction: column;
-    margin: 0;
-    width: 90%;
-}
-
-.tx-4 {
-    font-size: 30px;
-    height: 100px;
-}
-.t-sl {
-    flex-direction: column;
-    gap: 3rem;
-}
-.sl-1 {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    gap: 3rem;
-}
-.sl-1-a {
-    flex-direction: column;
-    margin: 0;
-    width: 90%;
-}
-.sl-1-b {
-    flex-direction: column;
-    margin: 0;
-    width: 90%;
-}
-.sl-2 {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    gap: 3rem;
-}
-.sl-2-a {
-    flex-direction: column;
-    margin: 0;
-    width: 90%;
-}
-.sl-2-b {
-    flex-direction: column;
-    margin: 0;
-    width: 90%;
-}
-.last {
-    text-align: center;
-    flex-direction: column;
-    font-size: 15px;
-    height: auto;
-    margin-top: 30px;
-}
-.other {
-    display: flex;
-    flex-direction: column;
-}
-.other1 {
+      
+      .section-2 {
+        font-size: 15px;
+        padding: 0;
+      }
+      .note {
+        font-size: 15px;
+      }
+      .write {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .title h1 {
+        font-size: 30px;
+      }
+      
+      .text h1 {
+        font-size: 15px;
+      }
+      .text  {
+        font-size: 25px;
+        gap: 0;
+      }
+      .class {
         display: flex;
         flex-direction: column;
-    } 
-    .other2 {
+        gap: 0;
+      }
+      .address {
+        font-size: 12px;
+      }
+      .address-1 {
+        width: 80%;
+        justify-content: center;
+        gap: 0;
+        margin-left: 15px;
+      }
+      .address-2 {
+        width: 10%;
+        font-size: 15px;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .menu {
+        font-size: 20px;
+        width: 50%;
+    }
+    .close {
+        font-size: 25px;
+    }
+    .list {
+        display: flex;
+    }
+    .solar-pannel {
+        flex-direction: column;
+    }
+    .tx-1 {
+        font-size: 30px;
+        height: 100px;
+    }
+    .sp {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .sp-1 {
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sp-1-a {
+        width: 90%;
+    }
+    .sp-1-b {
+        width: 90%;
+        
+    }
+    .sp-2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .sp-2-a {
+        width: 90%;
+    }
+    .sp-2-b {
+        width: 90%;
+    }
+    .tx-2 {
+        font-size: 30px;
+    }
+    .t-iv {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .iv-1 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 3rem;
+    }
+    .iv-1-a {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .iv-1-b {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .iv-2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .iv-2-a {
+        margin: 0;
+        width: 90%;
+    }
+    .iv-2-b {
+        margin: 0;
+        width: 90%;
+    }
+    
+
+
+
+    .t-iv2 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .iv2-1 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 3rem;
+    }
+    .iv2-1-a {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .iv2-1-b {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .iv2-2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .iv2-2-a {
+        margin: 0;
+        width: 90%;
+    }
+    .iv2-2-b {
+        margin: 0;
+        width: 90%;
+    }
+
+
+
+
+    .tx-3 {
+        font-size: 30px;
+        height: 100px;
+    }
+    .t-bt {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .bt-1 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 3rem;
+    }
+    .bt-1-a {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .bt-1-b {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .bt-2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 3rem;
+    }
+    .bt-2-a {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .bt-2-b {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+
+
+
+
+    .tx-3 {
+        font-size: 30px;
+        height: 100px;
+    }
+    .t-bt2 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .bt2-1 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 3rem;
+    }
+    .bt2-1-a {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .bt2-1-b {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .bt2-2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 3rem;
+    }
+    .bt2-2-a {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .bt2-2-b {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .tx-4 {
+        font-size: 30px;
+        height: 100px;
+    }
+    .t-sl {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .sl-1 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 3rem;
+    }
+    .sl-1-a {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .sl-1-b {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .sl-2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 3rem;
+    }
+    .sl-2-a {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .sl-2-b {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+
+
+
+
+    .op-1 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 3rem;
+    }
+    .op-1-a {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .op-1-b {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .op-2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 3rem;
+    }
+    .op-2-a {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .op-2-b {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+
+
+    .t-sl2 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .sl2-1 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 3rem;
+    }
+    .sl2-1-a {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .sl2-1-b {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .sl2-2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: 3rem;
+    }
+    .sl2-2-a {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+    .sl2-2-b {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+    }
+
+
+
+    .last {
+        text-align: center;
+        flex-direction: column;
+        font-size: 15px;
+        height: auto;
+        margin-top: 30px;
+    }
+    .other {
         display: flex;
         flex-direction: column;
     }
-    .other3 {
-        display: flex;
+    .other1 {
+            display: flex;
+            flex-direction: column;
+        } 
+        .other2 {
+            display: flex;
+            flex-direction: column;
+        }
+        .other3 {
+            display: flex;
+            flex-direction: column;
+        }
+        .service-box {
+            flex-direction: column;
+        }
+        .t-sv-1 {
+            flex-direction: column;
+            height: auto;
+            align-items: center;
+        }
+        .sv-1-a {
+            width: 90%;
+            margin-top: 150px;
+        }
+        
+        .sv-1-b {
+            width: 90%;
+        }
+        .sv-1-c {
+            width: 90%;
+        }
+        
+        .t-sv-2 {
+            flex-direction: column;
+            height: auto;
+            margin-top: 60px;
+        }
+        .sv-2-a {
+            width: 90%;
+        }
+        .sv-2-b {
+            width: 90%;
+        }
+        .sv-img-5 {
+            width: 90%;
+        }
+        .sv-2-c {
+            width: 90%;
+        }
+        .sv-img-6 {
+            width: 90%;
+        }
+        .footer {
+            margin-top: 50px;
+    }
+    .t-sp2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        margin: 0;
+        
+    }
+    .sp2-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
         flex-direction: column;
     }
-}
+    .sp2-1-a {
+        margin: 0;
+        width: 90%;
+    }
+    .sp2-1-b {
+        margin: 0;
+        width: 90%;
+    }
+    .sp2-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
 
+    }
+    .sp2-2-a {
+        margin: 0;
+        width: 90%;
+    }
+    .sp2-2-b {
+        margin: 0;
+        width: 90%;
+    }
+    .other-product {
+        height: 250vh;
+    }
+    /* .move {
+        margin-top: 500px;
+    } */
+}

@@ -37,7 +37,7 @@ let  change2 = 0;
 
 function countUp2() {
     if(change2 < 2000) {
-        change2 = change2 + 15;
+        change2 = change2 + 25;
         document.querySelector("#count1").innerHTML = change2;
     }else{
         if(change2 = 5000) {
@@ -81,4 +81,47 @@ function about() {
     window.location.href = 'about.html';
 }
 
+let dpd = true;
+function solar() {
+    document.querySelector(".t-sp2").style = "display: flex;"
+    document.querySelector(".tx-5").style = "display: none;"
+    document.querySelector(".cls").style = "display: flex"
+        
+    
+}
+function fold() {
+    document.querySelector(".t-sp2").style = "display: none;"
+    document.querySelector(".tx-5").style = "display: flex;"
+    document.querySelector(".cls").style = "display: none"
+}
+function inverter() {
+    document.querySelector(".inverter-2").style = "display: flex;"
+    document.querySelector(".tx-6").style = "display: none;"
+    document.querySelector(".cls2").style = "display: flex"
+}
+function fold2() {
+    document.querySelector(".inverter-2").style = "display: none;"
+    document.querySelector(".tx-6").style = "display: flex;"
+    document.querySelector(".cls2").style = "display: none"
+}
+function battery() {
+    document.querySelector(".battery-2").style = "display: flex;"
+    document.querySelector(".tx-7").style = "display: none;"
+    document.querySelector(".cls3").style = "display: flex"
+}
+function fold3() {
+    document.querySelector(".battery-2").style = "display: none;"
+    document.querySelector(".tx-7").style = "display: flex;"
+    document.querySelector(".cls3").style = "display: none"
+}
 
+function streetlight() {
+    document.querySelector(".t-sl2").style = "display: flex;"
+    document.querySelector(".tx-8").style = "display: none;"
+    document.querySelector(".cls4").style = "display: flex"
+}
+function fold4() {
+    document.querySelector(".t-sl2").style = "display: none;"
+    document.querySelector(".tx-8").style = "display: flex;"
+    document.querySelector(".cls4").style = "display: none"
+}
