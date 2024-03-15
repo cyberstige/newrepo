@@ -1968,172 +1968,7 @@ text span {
     height: 60vh;
     
 }
-.op-1 {
-    display: flex;
-    align-items: center;
-    margin-left: 80px;
-    width: 50%;
-}
-.op-1-a {
-    width: 35%;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    margin-left: 72px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
-}
-.pd-img37 {
-    background-image: url(./lordmoon29.jfif);
-    width: 90%;
-    height: 250px;
-    background-size: cover;
-    border-radius: 20px;
-    transition: 0.1s linear;
-}
-.pd-img37:hover {
-    width: 95%;
-    height: 270px;
-}
-.op-1-a button {
-    width: 80px;
-    height: 40px;
-    border: 2px solid orange;
-    border-radius: 20px;
-    color: orange;
-    background-color: transparent;
-    transition: all 5ms linear;
-    margin-top: 10px
-}
-.op-1-a button:hover {
-    background-color: orange;
-    color: white;
-    width: 90px;
-    margin-top: 5px;
-}
-.op-1-b {
-    width: 35%;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    margin-left: 72px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
-}
-.pd-img38 {
-    background-image: url(./lordmoon24.jfif);
-    width: 90%;
-    height: 250px;
-    background-size: cover;
-    border-radius: 20px;
-    transition: 0.1s linear;
-}
-.pd-img38:hover {
-    width: 95%;
-    height: 270px;
-}
-.op-1-b button {
-    width: 80px;
-    height: 40px;
-    border: 2px solid orange;
-    border-radius: 20px;
-    color: orange;
-    background-color: transparent;
-    transition: all 5ms linear;
-    margin-top: 10px
-}
-.op-1-b button:hover {
-    background-color: orange;
-    color: white;
-    width: 90px;
-    margin-top: 5px;
-}
-.op-2 {
-    display: flex;
-    align-items: center;
-    width: 50%;
-}
-.op-2-a {
-    width: 35%;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
-}
-.pd-img39 {
-    background-image: url(./lordmoon44.jfif);
-    width: 90%;
-    height: 250px;
-    background-size: cover;
-    border-radius: 20px;
-    transition: 0.1s linear;
-}
-.pd-img39:hover {
-    width: 95%;
-    height: 270px;
-}
-.op-2-a button {
-    width: 80px;
-    height: 40px;
-    border: 2px solid orange;
-    border-radius: 20px;
-    color: orange;
-    background-color: transparent;
-    transition: all 5ms linear;
-    margin-top: 10px
-}
-.op-2-a button:hover {
-    background-color: orange;
-    color: white;
-    width: 90px;
-    margin-top: 5px;
-}
-.op-2-b {
-    width: 35%;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    margin-left: 72px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
-}
-.pd-img40 {
-    background-image: url(./lordmoon17.jfif);
-    width: 90%;
-    height: 250px;
-    background-size: cover;
-    border-radius: 20px;
-    transition: 0.1s linear;
-}
-.pd-img40:hover {
-    width: 95%;
-    height: 270px;
-}
-.op-2-b button {
-    width: 80px;
-    height: 40px;
-    border: 2px solid orange;
-    border-radius: 20px;
-    color: orange;
-    background-color: transparent;
-    transition: all 5ms linear;
-    margin-top: 10px
-}
-.op-2-b button:hover {
-    background-color: orange;
-    color: white;
-    width: 90px;
-    margin-top: 5px;
-}    
+
 
 .service-box {
     width: 100%;
@@ -2536,32 +2371,9 @@ text span {
 
 
 
-    .op-1 {
-        margin: 0;
-        gap: 1rem;
-        justify-content: center;
-    }
-    .op-1-a {
-        margin: 0;
-        width: 45%;
-    }
-    .op-1-b {
-        margin: 0;
-        width: 45%;
-    }
-    .op-2 {
-        margin: 0;
-        gap: 1rem;
-        justify-content: center;
-    }
-    .op-2-a {
-        margin: 0;
-        width: 45%;
-    }
-    .op-2-b {
-        margin: 0;
-        width: 45%;
-    }
+    
+
+
 
 
 
@@ -2871,32 +2683,7 @@ text span {
         margin: 0;
         width: 45%;
     }
-    .op-1 {
-        margin: 0;
-        gap: 1rem;
-        justify-content: center;
-    }
-    .op-1-a {
-        margin: 0;
-        width: 45%;
-    }
-    .op-1-b {
-        margin: 0;
-        width: 45%;
-    }
-    .op-2 {
-        margin: 0;
-        gap: 1rem;
-        justify-content: center;
-    }
-    .op-2-a {
-        margin: 0;
-        width: 45%;
-    }
-    .op-2-b {
-        margin: 0;
-        width: 45%;
-    }
+    
     .last {
         flex-direction: column;
     }
@@ -3177,32 +2964,10 @@ text span {
 
 
 
-    .op-1 {
-        margin: 0;
-        gap: 1rem;
-        justify-content: center;
-    }
-    .op-1-a {
-        margin: 0;
-        width: 45%;
-    }
-    .op-1-b {
-        margin: 0;
-        width: 45%;
-    }
-    .op-2 {
-        margin: 0;
-        gap: 1rem;
-        justify-content: center;
-    }
-    .op-2-a {
-        margin: 0;
-        width: 45%;
-    }
-    .op-2-b {
-        margin: 0;
-        width: 45%;
-    }
+   
+
+
+
 
 
 
@@ -3589,31 +3354,6 @@ text span {
         width: 100%;
         justify-content: center;
     }
-
-
-
-
-
-    .t-op {
-        flex-direction: column;
-        gap: 3rem;
-    }
-    .op-1 {
-        margin: 0;
-        width: 100%;
-        justify-content: center;
-    }
-    .op-1-a {
-        margin: 0;
-    }
-    .op-2 {
-        margin: 0;
-        width: 100%;
-        justify-content: center;
-    }
-
-
-
     .last {
         font-size: 20px;
         flex-direction: column;
@@ -3986,24 +3726,7 @@ text span {
         justify-content: center;
     }
 
-    .t-op {
-        flex-direction: column;
-        gap: 3rem;
-    }
-    .op-1 {
-        margin: 0;
-        width: 100%;
-        justify-content: center;
-    }
-    .op-1-a {
-        margin: 0;
-    }
-    .op-2 {
-        margin: 0;
-        width: 100%;
-        justify-content: center;
-    }
-
+    
     .t-sl2 {
         flex-direction: column;
         gap: 3rem;
@@ -4471,43 +4194,7 @@ text span {
 
 
 
-    .op-1 {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        gap: 3rem;
-    }
-    .op-1-a {
-        flex-direction: column;
-        margin: 0;
-        width: 90%;
-    }
-    .op-1-b {
-        flex-direction: column;
-        margin: 0;
-        width: 90%;
-    }
-    .op-2 {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        gap: 3rem;
-    }
-    .op-2-a {
-        flex-direction: column;
-        margin: 0;
-        width: 90%;
-    }
-    .op-2-b {
-        flex-direction: column;
-        margin: 0;
-        width: 90%;
-    }
-
+    
 
     .t-sl2 {
         flex-direction: column;
